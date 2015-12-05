@@ -1,17 +1,21 @@
 # TecWeb2
 Analisi di usabilità del sito web http://www.alexa.com/   
 [Università degli studi di Padova - MSc level](http://informatica.math.unipd.it/laureamagistrale/indexen.html)   
-[Progetto didattico](http://corsi.math.unipd.it/tecweb2/node/6) relativo al corso di Tecnologie Web 2 AA 2015/2016  
+[Progetto didattico](http://corsi.math.unipd.it/tecweb2/node/6)
+relativo al corso di Tecnologie Web 2 AA 2015/2016  
 Docente: [Massimo Marchiori](http://www.math.unipd.it/~massimo/)  
 
 Il progetto consiste nell'applicazione delle conoscenze di usabilità
 apprese durante il corso ad un caso di analisi reale di un sito web.
 
-## Metodologia di analisi
-Il documento di analisi prodotto riflette
-la metodologia adottata per l'analisi del sito.
+## Compilazione
+Per produrre il documento analisi.pdf dare il seguente comando dalla root del
+progetto:  
+```
+make
+```  
 
-## Metodo di valutazione
+## Criterio di valutazione
 Come conclusione dell'attività di analisi viene redatta una valutazione
 finale in decimi (0-10) secondo gli assi di usabilità individuati:
 
@@ -23,7 +27,7 @@ finale in decimi (0-10) secondo gli assi di usabilità individuati:
 * Utilizzo di testo;  
 * Utilizzo di immagini;  
 * Utilizzo di link;  
-* Utilizzo di pubblicità;  
+* Utilizzo di pubblicità.   
 
 È importante notare come ognuno di questi assi abbia un peso
 differente che dipende dallo scopo specifico del sito
