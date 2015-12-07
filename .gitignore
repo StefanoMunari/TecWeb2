@@ -126,5 +126,6 @@ sympy-plots-for-*.tex/
 *.bak
 *.sav
 
-# struttura
+# files temporanei
 .structure
+.brainstorm

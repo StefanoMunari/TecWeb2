@@ -1,27 +1,31 @@
 \subsection{Sezioni}
 Il sito risulta ampio e particolarmente denso di informazioni. Le sezioni in cui
-le informazioni sono distribuite sono, nell'ordine:
-\begin{itemize}
-	\item Home;
-	\item Plans and Pricing;
-	\item Tools;
-	\item Dashboard;
-	\item Toolbar;
-	\item About us;
-	\item Support;
-	\item Blog.
-\end{itemize}
-Ad una prima occhiata il sito sembra avere un solo livello di profondità ma,
-analizzando attentamente ogni sezione, si nota come alcune (i.e. About us) 
-presentino una colonna a sinistra con delle voci indicanti altre sezioni. \\
+le informazioni sono distribuite sono visualizzabili nel diagramma seguente:
+    \begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.65,keepaspectratio]{{analisi/img/alexa_tree}.png}
+    \caption{Struttura ad albero di alexa.com}
+    \end{figure}
+    \FloatBarrier
+Dal menù di navigazione il sito sembra avere un solo livello di profondità ma, analizzando attentamente ogni sezione, si nota come alcune di esse (i.e. About us) presentino una colonna a sinistra con delle voci indicanti altre sezioni. In
+generale il sito risulta avere una profondità massima di livello 3.\\
 Screenshot disponibile al path : \textit{Figure/2/sez0.png} \\ 
-Mentre alcune sezioni hanno \quotes{evitato} del tutto altri livelli di 
-profondità semplicemente disponendo tutte le informazioni verticalmente nella 
-pagina (come spiegato in \ref{scrolling}). Ne risulta una gran confusione 
-organizzativa data anche dal grande numero di link disseminati
-in tutto il sito. Altra nota negativa data dalla sezione \textit{Support} 
+Altre sezioni sono implicitamente composte da sottosezioni presentate disponendo 
+tutte le informazioni verticalmente nella 
+pagina (come spiegato in \ref{scrolling}) ed inserendo altre sottosezioni
+implicitamente all'interno di pulsanti disseminati nella pagina stessa. 
+    \begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.40,keepaspectratio]{{figure/2/sez1_particolare}.png}
+    \caption{Pulsante come metafora di sezione di terzo livello}
+    \end{figure}
+    \FloatBarrier
+Una nota negativa è data dalla sezione \textit{Support} 
 che stravolge il layout standard eliminando totalmente il menù di navigazione e
 presentando un'interfaccia che sembra essere totalmente estranea al sito, l'unico
 modo per ritornare alla navigazione è cliccare sull'icona dell'azienda in alto
 a sinistra che riporta alla homepage. \\
-Screenshot disponibile al path : \textit{Figure/2/sez1.png} \\ 
+Screenshot disponibile al path : \textit{Figure/2/sez2.png} \\ 
+In conclusione la struttura non risulta molto chiara, anche se suddisiva in sezioni
+pertinenti non aiuta l'utente ad orientarsi agevolmente all'interno del sito. \\
+Risultato : \textbf{5}
