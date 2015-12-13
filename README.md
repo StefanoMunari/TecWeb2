@@ -26,7 +26,6 @@ finale in decimi (0-10) secondo gli assi di usabilità individuati:
 * Presentazione dei risultati di ricerca;  
 * Utilizzo di testo;  
 * Utilizzo di immagini;  
-* Utilizzo di link;  
 * Utilizzo di pubblicità.   
   
   Ogni **sezione** rappresenta il risultato di una **media aritmetica** 
