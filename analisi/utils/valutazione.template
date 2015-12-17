@@ -1,0 +1,37 @@
+\section{Valutazione}
+\begin{longtable}{| p{4.5cm} | p{4.5cm} | l |}
+
+\hline
+\hline
+\textbf{Aspetto} & \textbf{Descrizione} & \textbf{ValutazionexPeso} \\ 
+\hline
+\hline
+
+\nameref{sezioni} &  & V*P \\
+\hline
+\nameref{general} &  & V*P \\
+\hline
+\nameref{where} &  & V*P \\
+\hline
+\nameref{who} &  & V*P \\
+\hline
+\nameref{why} &  & V*P \\
+\hline
+\nameref{what} &  & V*P \\
+\hline
+\nameref{when} &  & V*P \\
+\hline
+\nameref{how} &  & V*P \\
+\hline
+\nameref{usecase} &  & V*P \\
+\hline
+\nameref{searchfun} &  & V*P \\
+\hline
+\nameref{contenuto} &  & V*P \\
+\hline
+\hline
+Totale & &  \\
+\hline
+\hline
+
+\end{longtable}
