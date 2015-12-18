@@ -7,7 +7,7 @@ set -euf -o pipefail;
 IFS=$'\n\t'
 
 # VARIABLES
-my_root="$PWD"
+my_root="$PWD";
 
 # FUNCTIONS
 #========================
@@ -42,27 +42,32 @@ function extractResult {
 	echo "${my_result}";
 }
 
+function containsResult {
+	local my_list=${1:-};
+	
+}
+
 ## weightedAverage :
 ## applies the template file to valutazione.tex
 #function weightedAverage {}
 
 function main {
+	local my_path="$my_root"/analisi/sezioni;
 	applyTemplate
-	local my_root="$my_root"/analisi/sezioni;
-	local my_struttura=($(extractFileNames $my_root "sub\/" "}" "struttura.tex"));
-	local my_home=($(extractFileNames $my_root "sub\/" "}" "home.tex"));
-	local my_interne=($(extractFileNames $my_root "sub\/" "}" "interne.tex"));
-	local my_root="$my_root"/sub;
-	#local my_sub=($(grep 'Risultato : \textit{' $(find "$my_root" -name "interne.tex") | cut -d "/" -f 4 | cut -d "}" -f 1));
-	#DEBUG
-	# for index in "${!my_array[@]}"
-	# 	do
-	# 	    echo "$index ${my_array[index]}";
-	# 	done
-	# if containsResult
-	# 	then
-	#echo "${my_struttura[0]}";
-	my_result=$(extractResult $my_root "Risultato" "{" "}" "${my_struttura[0]}");
+	local struttura=($(extractFileNames $my_path "sub\/" "}" "struttura.tex"));
+	local home=($(extractFileNames $my_path "sub\/" "}" "home.tex"));
+	local interne=($(extractFileNames $my_path "sub\/" "}" "interne.tex"));
+	local my_path="$my_path"/sub;
+
+	# checking if the subfile doesn't contains a Result
+	if [ -z $(containsResult struttura) ]
+  then
+    echo "Search in the subfolder"
+	else
+		echo "contains Result"
+	fi
+
+	my_result=$(extractResult $my_path "Risultato" "{" "}" "${struttura[0]}");
 	echo "$my_result";
 	# 	else
 	# fi
