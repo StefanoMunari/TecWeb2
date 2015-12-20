@@ -32,10 +32,10 @@ finale in decimi (0-10) secondo gli assi di usabilità individuati:
 	* Utilizzo di testo;  
 	* Utilizzo di immagini;  
 	* Utilizzo di pubblicità.   
-  
-  Ogni **sezione** rappresenta il risultato di una **media aritmetica** 
-  applicata alle valutazione delle singole sottosezioni interne.  
-  La **valutazione finale** si basa su una **media pesata** dei risultati totali
-  calcolati per ogni sezione. È importante notare come ognuno di questi assi abbia un peso differente che dipende dallo scopo specifico del sito
+ 
+Ogni **sezione** rappresenta il risultato di una **media aritmetica** 
+applicata alle valutazione delle singole sottosezioni interne.  
+La **valutazione finale** si basa su una **media pesata** dei risultati totali
+calcolati per ogni sezione. È importante notare come ognuno di questi assi abbia un peso differente che dipende dallo scopo specifico del sito
 (i.e. per un sito che ha come scopo offrire funzionalità di ricerca
-  l'usabilità della barra di ricerca avrà un peso importante).
+l'usabilità della barra di ricerca avrà un peso importante).
