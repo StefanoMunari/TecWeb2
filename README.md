@@ -37,5 +37,6 @@ Ogni **sezione** rappresenta il risultato di una **media aritmetica**
 applicata alle valutazione delle singole sottosezioni interne.  
 La **valutazione finale** si basa su una **media pesata** dei risultati totali
 calcolati per ogni sezione. È importante notare come ognuno di questi assi abbia un peso differente che dipende dallo scopo specifico del sito
-(i.e. per un sito che ha come scopo offrire funzionalità di ricerca
-l'usabilità della barra di ricerca avrà un peso importante).
+(i.e. per un sito che presenta molte sottosezioni 
+l'usabilità della barra di ricerca avrà un peso più importante rispetto 
+a siti con nessuna sottosezione).
